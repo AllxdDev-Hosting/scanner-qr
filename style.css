@@ -1,0 +1,75 @@
+/* Styling Body dan Container */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 360px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+/* Styling untuk video scanner */
+#video {
+  width: 320px;
+  height: 240px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  margin: 20px 0;
+}
+
+#loader {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+/* Styling tombol */
+.button {
+  background: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background: #45a049;
+}
+
+/* Styling Footer */
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9em;
+  color: #fff;
+}
